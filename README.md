@@ -49,16 +49,16 @@ import { QueryProvider } from 'query-wrapper';
 const instance = axios.create({...});
 
 const options = {
-	credentials: "same-origin",
-	headers: {
-		"Content-Type": "application/json",
-	}
+  credentials: "same-origin",
+  headers: {
+      "Content-Type": "application/json",
+  }
 };
 
 const App = () => (
-	<QueryProvider axios={instance} options={options}>
-		... // your application
-	</QueryProvider>
+  <QueryProvider axios={instance} options={options}>
+      ... // your application
+  </QueryProvider>
 );
 
 export default App;
@@ -72,19 +72,19 @@ import { Query } from 'query-wrapper';
 const query = { url: '/api/user/info' };
 
 const UserInfo = () => (
-	<Query query={query}>
-		{({ data, error, loading }) => {
-			if (loading) {
-				return ... // handle loading
-			}
+  <Query query={query}>
+    {({ data, error, loading }) => {
+      if (loading) {
+        return ... // handle loading
+      }
 
-			if (error) {
-				return ... // handle loading
-			}
+      if (error) {
+        return ... // handle loading
+      }
 
-			return ... // handle response data
-		}}
-	</Query>
+      return ... // handle response data
+    }}
+  </Query>
 );
 
 export default UserInfo;
