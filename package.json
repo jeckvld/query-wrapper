@@ -1,0 +1,38 @@
+{
+  "name": "query-wrapper",
+  "version": "0.1.3",
+  "main": "lib/index.js",
+  "description": "Simple handling request state in component.",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "redux",
+    "query",
+    "wrapper",
+    "restful"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeckvld/query-wrapper.git"
+  },
+  "author": "Eugene Vladimirtsev <eugene.vladimirtsev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-node-resolve": "^4.2.3"
+  },
+  "files": [
+    "lib/",
+    "src/"
+  ]
+}
