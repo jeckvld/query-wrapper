@@ -1,8 +1,8 @@
 {
   "name": "query-wrapper",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "main": "lib/index.js",
-  "description": "Simple handling request state in component.",
+  "description": "Simple request state handling in component.",
   "scripts": {
     "build": "rollup --config"
   },
