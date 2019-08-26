@@ -1,12 +1,13 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import typescript from 'rollup-plugin-typescript2';
 
 export default {
-  input: 'src/index.js',
+  input: 'src/index.ts',
   output: [
     {
       file: 'lib/index.js',
-      format: 'amd'
+      format: 'cjs'
     },
     {
       file: 'lib/index.esm.js',
@@ -15,12 +16,13 @@ export default {
   ],
   external: ['react'],
   plugins: [
+    typescript(),
     resolve({
-      extensions: ['.js']
+      extensions: ['.ts', '.tsx']
     }),
     babel({
       exclude: 'node_modules/**',
-      extensions: ['.js']
-    })
+      extensions: ['.ts', '.tsx']
+    }),
   ]
 };

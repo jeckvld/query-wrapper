@@ -1,4 +1,4 @@
-# Query Wrapper &middot; [![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/query-wrapper.svg?style=flat)](https://www.npmjs.com/package/query-wrapper)
+# Query Wrapper &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/query-wrapper.svg?style=flat)](https://www.npmjs.com/package/query-wrapper) [![npm version](https://img.shields.io/bundlephobia/min/query-wrapper)](https://www.npmjs.com/package/query-wrapper) [![npm version](https://img.shields.io/bundlephobia/minzip/query-wrapper)](https://www.npmjs.com/package/query-wrapper)
 
 Spoiler alert: there is nothing similar/related to jQuery.
 
