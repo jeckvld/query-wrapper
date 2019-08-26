@@ -1,6 +1,6 @@
 {
   "name": "query-wrapper",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "lib/index.js",
   "description": "Simple request state handling in component.",
   "scripts": {
